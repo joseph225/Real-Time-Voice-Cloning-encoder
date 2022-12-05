@@ -17,7 +17,7 @@ SV2TTS is a deep learning framework in three stages. In the first stage, one cre
    3. $ sudo add-apt-repository ppa:deadsnakes/ppa
    4. $ sudo apt install python3.7
     
-  #### To setup virtual environment -
+   #### To setup virtual environment -
    1. $ sudo apt install python3.7-venv
    2. $ python3.7 -m venv env37
    3. $ source env37/bin/activate
