@@ -10,17 +10,17 @@ SV2TTS is a deep learning framework in three stages. In the first stage, one cre
 ### 1. Install Requirements
 1. Both Windows and Linux are supported. A GPU is recommended for training and for inference speed, but is not mandatory.
 2. Python 3.7 is recommended. Python 3.5 or greater should work, but you'll probably have to tweak the dependencies' versions. I recommend setting up a virtual environment using `venv`, but this is optional.
-   To install Python3.7 -
-    $ sudo apt update
-    $ sudo apt install software-properties-common
-    $ sudo add-apt-repository ppa:deadsnakes/ppa
-    $ sudo apt install python3.7
+   ####To install Python3.7 -
+   1. $ sudo apt update
+   2. $ sudo apt install software-properties-common
+   3. $ sudo add-apt-repository ppa:deadsnakes/ppa
+   4. $ sudo apt install python3.7
     
-   To setup virtual environment -
-    $ sudo apt install python3.7-venv
-    $ python3.7 -m venv env37
-    $ source env37/bin/activate
-    $ deactivate (when done using the environment)
+  ####To setup virtual environment -
+   1. $ sudo apt install python3.7-venv
+   2. $ python3.7 -m venv env37
+   3. $ source env37/bin/activate
+   4. $ deactivate (when done using the environment)
 
 4. Install [ffmpeg](https://ffmpeg.org/download.html#get-packages). This is necessary for reading audio files.
 5. Install [PyTorch](https://pytorch.org/get-started/locally/). Pick the latest stable version, your operating system, your package manager (pip by default) and finally pick any of the proposed CUDA versions if you have a GPU, otherwise pick CPU. Run the given command.
