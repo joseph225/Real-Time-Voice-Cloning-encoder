@@ -51,3 +51,11 @@ depending on whether you downloaded any datasets. If you are running an X-server
 
 ####Known Issues
 1. Delete empty directories(not containing .npy files) from <dataset_root>/SV2TTS/encoder/ after encoder pre-processing the dataset before starting the encoder training. (you may use : $ find <dataset_root>/SV2TTS/encoder/* -empty to find empty folders)
+
+####Additional help 
+1. Starting visdom server
+   python3 -m visdom.server
+
+   Then, in your browser, you can go to:
+
+   http://localhost:8097
