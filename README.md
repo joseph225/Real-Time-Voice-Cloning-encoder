@@ -50,4 +50,4 @@ or
 depending on whether you downloaded any datasets. If you are running an X-server or if you have the error `Aborted (core dumped)`, see [this issue](https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/11#issuecomment-504733590).
 
 ####Known Issues
-1. Delete empty directories(not containing .npy files) from <dataset_root>/SV2TTS/encoder/ after encoder pre-processing the dataset before starting the encoder training.
+1. Delete empty directories(not containing .npy files) from <dataset_root>/SV2TTS/encoder/ after encoder pre-processing the dataset before starting the encoder training. (you may use : $ find <dataset_root>/SV2TTS/encoder/* -empty to find empty folders)
