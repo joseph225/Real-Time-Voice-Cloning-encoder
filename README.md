@@ -57,9 +57,11 @@ depending on whether you downloaded any datasets. If you are running an X-server
 
 1. Starting visdom server
    python3 -m visdom.server
-
+   
    Then, in your browser, you can go to:
 
    http://localhost:8097
+   
+   More on Visdom setup and details can be found [here](https://github.com/fossasia/visdom/blob/master/README.md).
    
 2. To train from scratch, follow this link [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Training).
