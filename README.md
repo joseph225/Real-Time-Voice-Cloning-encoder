@@ -61,3 +61,5 @@ depending on whether you downloaded any datasets. If you are running an X-server
    Then, in your browser, you can go to:
 
    http://localhost:8097
+   
+2. To train from scratch, follow this link [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Training).
