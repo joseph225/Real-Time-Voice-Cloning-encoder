@@ -3,7 +3,7 @@
 
 SV2TTS is a deep learning framework in three stages. In the first stage, one creates a digital representation of a voice from a few seconds of audio. In the second and third stages, this representation is used as reference to generate speech given arbitrary text.
 
-
+Google Colab implementation can be found [here](https://colab.research.google.com/drive/18flNmIeuj83mC3fAroBgsjAYNlt7hGlL#scrollTo=V0xH8XNEelKI)
 
 ## Setup
 
